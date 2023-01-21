@@ -1,0 +1,39 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": false,
+  "cssPreprocessor": "ts",
+  "testLibrary": "Testing Library",
+  "component": {
+    "default": {
+      "customTemplates": {
+        "component": "generate-react-cli-templates/component/TemplateName.tsx",
+        "test": "generate-react-cli-templates/test/TemplateName.test.tsx",
+        "story": "generate-react-cli-templates/storybook/TemplateName.stories.tsx",
+        "lazy": "generate-react-cli-templates/lazy/TemplateName.lazy.tsx",
+        "style": "generate-react-cli-templates/style/TemplateName.jss.ts"
+      },
+      "path": "src/components",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": true
+    },
+    "page": {
+      "customTemplates": {
+        "component": "generate-react-cli-templates/page/TemplateName.tsx"
+      },
+      "path": "src/pages",
+      "withLazy": true,
+      "withStory": false,
+      "withStyle": true,
+      "withTest": true
+    },
+    "layout": {
+      "path": "src/layout",
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": false,
+      "withTest": true
+    }
+  }
+}
