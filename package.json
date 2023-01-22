@@ -1,0 +1,19 @@
+{
+  "name": "lib-react-generate-cli-templates",
+  "version": "1.0.0",
+  "description": "## Install generate-react-cli  ``` ~~npm i -g generate-react-cli~~  #NOW just run from npx! npx generate-react-cli component MbxMap ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zevross/lib-react-generate-cli-templates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zevross/lib-react-generate-cli-templates/issues"
+  },
+  "homepage": "https://github.com/zevross/lib-react-generate-cli-templates#readme"
+}
