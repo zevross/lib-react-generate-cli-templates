@@ -6,11 +6,11 @@
   "component": {
     "default": {
       "customTemplates": {
-        "component": "generate-react-cli-templates/component/TemplateName.tsx",
-        "test": "generate-react-cli-templates/test/TemplateName.test.tsx",
-        "story": "generate-react-cli-templates/storybook/TemplateName.stories.tsx",
-        "lazy": "generate-react-cli-templates/lazy/TemplateName.lazy.tsx",
-        "style": "generate-react-cli-templates/style/TemplateName.jss.ts"
+        "component": "node_modules/lib-react-generate-cli-templates/webcomponent/generate-react-cli-templates/component/TemplateName.tsx",
+        "test": "node_modules/lib-react-generate-cli-templates/webcomponent/generate-react-cli-templates/test/TemplateName.test.tsx",
+        "story": "node_modules/lib-react-generate-cli-templates/webcomponent/generate-react-cli-templates/storybook/TemplateName.stories.tsx",
+        "lazy": "node_modules/lib-react-generate-cli-templates/webcomponent/generate-react-cli-templates/lazy/TemplateName.lazy.tsx",
+        "style": "node_modules/lib-react-generate-cli-templates/webcomponent/generate-react-cli-templates/style/TemplateName.jss.ts"
       },
       "path": "src/components",
       "withStyle": true,
@@ -20,10 +20,11 @@
     },
     "page": {
       "customTemplates": {
-        "component": "generate-react-cli-templates/page/TemplateName.tsx",
-        "test": "generate-react-cli-templates/test/TemplateName.test.tsx",
-        "lazy": "generate-react-cli-templates/lazy/TemplateName.lazy.tsx",
-        "style": "generate-react-cli-templates/style/TemplateName.jss.ts"
+        "component": "node_modules/lib-react-generate-cli-templates/webcomponent/generate-react-cli-templates/page/TemplateName.tsx",
+        "test": "node_modules/lib-react-generate-cli-templates/webcomponent/generate-react-cli-templates/test/TemplateName.test.tsx",
+        "story": "node_modules/lib-react-generate-cli-templates/webcomponent/generate-react-cli-templates/storybook/TemplateName.stories.tsx",
+        "lazy": "node_modules/lib-react-generate-cli-templates/webcomponent/generate-react-cli-templates/lazy/TemplateName.lazy.tsx",
+        "style": "node_modules/lib-react-generate-cli-templates/webcomponent/generate-react-cli-templates/style/TemplateName.jss.ts"
       },
       "path": "src/pages",
       "withLazy": true,
@@ -32,10 +33,6 @@
       "withTest": true
     },
     "layout": {
-      "customTemplates": {
-        "component": "generate-react-cli-templates/component/TemplateName.tsx",
-        "test": "generate-react-cli-templates/test/TemplateName.test.tsx"
-      },
       "path": "src/layout",
       "withLazy": false,
       "withStory": false,
