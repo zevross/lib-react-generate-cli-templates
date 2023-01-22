@@ -2,7 +2,9 @@
 
 ## Install generate-react-cli 
 ```
-npm i -g generate-react-cli
+~~npm i -g generate-react-cli~~ 
+#NOW just run from npx!
+npx generate-react-cli component MbxMap
 ```
 
 ## Add a config file to your project

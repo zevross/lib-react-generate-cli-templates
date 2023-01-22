@@ -1,14 +1,15 @@
+import Box from "@mui/material/Box";
 import {FC} from "react";
-import styles from "./TemplateName.jss.ts";
+import styles from "./TemplateName.jss";
 
 export interface TemplateNameProps {}
 
 const TemplateName: FC<TemplateNameProps> = (props) => {
   
   return (
-    <div sx={styles.TemplateName} data-testid="TemplateName">
+    <Box sx={styles.TemplateName} data-testid="TemplateName">
       TemplateName Component
-    </div>
+    </Box>
   );
 };
 
