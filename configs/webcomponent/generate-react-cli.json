@@ -20,7 +20,10 @@
     },
     "page": {
       "customTemplates": {
-        "component": "generate-react-cli-templates/page/TemplateName.tsx"
+        "component": "generate-react-cli-templates/page/TemplateName.tsx",
+        "test": "generate-react-cli-templates/test/TemplateName.test.tsx",
+        "lazy": "generate-react-cli-templates/lazy/TemplateName.lazy.tsx",
+        "style": "generate-react-cli-templates/style/TemplateName.jss.ts"
       },
       "path": "src/pages",
       "withLazy": true,
@@ -29,6 +32,10 @@
       "withTest": true
     },
     "layout": {
+      "customTemplates": {
+        "component": "generate-react-cli-templates/component/TemplateName.tsx",
+        "test": "generate-react-cli-templates/test/TemplateName.test.tsx"
+      },
       "path": "src/layout",
       "withLazy": false,
       "withStory": false,
